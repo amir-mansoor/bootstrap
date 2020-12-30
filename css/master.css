@@ -1,0 +1,65 @@
+* {
+  margin: 0 !important;
+  box-sizing: border-box;
+}
+
+.navbar-brand:hover {
+  color: blue !important;
+}
+
+.navbar-brand {
+  margin-top: -20px !important;
+  align-items: center !important;
+}
+
+.active {
+  color: black !important;
+}
+
+.navbar-background {
+  background: blue !important;
+}
+
+.card {
+  background: rgb(2, 0, 36) !important;
+  color: white !important;
+  background: -webkit-linear-gradient(left, rgba(2, 0, 36, 1) 0%, rgba(32, 108, 203, 1) 7%, rgba(8, 8, 114, 1) 14%, rgba(62, 62, 93, 1) 40%, rgba(6, 81, 168, 1) 87%, rgba(7, 56, 152, 1) 99%, rgba(161, 144, 145, 1) 100%) !important;
+  background: -o-linear-gradient(left, rgba(2, 0, 36, 1) 0%, rgba(32, 108, 203, 1) 7%, rgba(8, 8, 114, 1) 14%, rgba(62, 62, 93, 1) 40%, rgba(6, 81, 168, 1) 87%, rgba(7, 56, 152, 1) 99%, rgba(161, 144, 145, 1) 100%) !important;
+  background: linear-gradient(to right, rgba(2, 0, 36, 1) 0%, rgba(32, 108, 203, 1) 7%, rgba(8, 8, 114, 1) 14%, rgba(62, 62, 93, 1) 40%, rgba(6, 81, 168, 1) 87%, rgba(7, 56, 152, 1) 99%, rgba(161, 144, 145, 1) 100%) !important;
+}
+
+#error {
+  opacity: 0;
+  pointer-events: none;
+}
+
+#error.errorRight {
+  opacity: 1;
+  pointer-events: all;
+}
+
+#error2 {
+  opacity: 0;
+  pointer-events: none;
+}
+
+#error2.errorRight {
+  opacity: 1;
+  pointer-events: all;
+}
+
+#comment_tabel {
+  border: 1px solid gray !important;
+  list-style: none;
+  padding: 3rem !important;
+}
+
+li {
+  margin-bottom: 30px !important;
+}
+
+p::selection {
+  background-color: rgb(95, 92, 92);
+  color: white;
+  text-shadow: 0 0 4px rgb(12, 243, 78);
+}

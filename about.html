@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>About ME</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/master.css">
+  <script src="js/main.js"></script>
+</head>
+
+<body>
+  <nav id="navbar" class="navbar navbar-expand-lg">
+    <a class="navbar-brand ml-3" href="index.html">NomiSpeaks</a>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" id="home" href="index.html">Home</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="about.html">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="service.html">Services</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="container mt-5">
+    <h1>About Our Team</h1>
+    <div class="mt-2">
+      <h4>Team</h4>
+      <p>Team Bootstrap is maintained by a small team of developers on GitHub. We’re actively looking to grow this team
+        and would love to hear from you if you’re excited about CSS at scale, writing and maintaining vanilla JavaScript
+        plugins, and improving build tooling processes for frontend code.</p>
+    </div>
+    <div class="mt-5">
+      <h4>History</h4>
+      <p>Originally created by a designer and a developer at Twitter, Bootstrap has become one of the most popular
+        front-end frameworks and open source projects in the world.
+
+        Bootstrap was created at Twitter in mid-2010 by @mdo and @fat. Prior to being an open-sourced framework,
+        Bootstrap was known as Twitter Blueprint. A few months into development, Twitter held its first Hack Week and
+        the project exploded as developers of all skill levels jumped in without any external guidance. It served as the
+        style guide for internal tools development at the company for over a year before its public release, and
+        continues to do so today.
+
+        Originally released on Friday, August 19, 2011, we’ve since had over twenty releases, including two major
+        rewrites with v2 and v3. With Bootstrap 2, we added responsive functionality to the entire framework as an
+        optional stylesheet. Building on that with Bootstrap 3, we rewrote the library once more to make it responsive
+        by default with a mobile first approach.
+
+        With Bootstrap 4, we once again rewrote the project to account for two key architectural changes: a migration to
+        Sass and the move to CSS’s flexbox. Our intention is to help in a small way to move the web development
+        community forward by pushing for newer CSS properties, fewer dependencies, and new technologies across more
+        modern browsers.</p>
+    </div>
+    <p>Follow our team on github 📟 <a target="_blank" href="https://github.com/amir-mansoor">Click Here</a></p>
+  </div>
+
+
+  <div id="container" class="container mt-3">
+    <div>
+      <h1 class="text-lg-center">Comment Your Think 🤔 !</h1>
+    </div>
+    <div id="comment_form" class="comment mt-3">
+      <form method="post" id="comment_form">
+        <input type="text" autocomplete="off" class="form-control" id="name" placeholder="Please Enter Your Name"><br>
+        <input type="number" autocomplete="off" class="form-control" id="id" placeholder="Please Enter Any Number">
+        <textarea autocomplete="off" class="form-control mt-3 comment" id="comment_msg" cols="29" rows="5"
+          placeholder="Enter Your Think 🤔"></textarea>
+        <input type="submit" value="Post Comment" class="btn-primary mt-3">
+      </form>
+    </div>
+  </div>
+
+  <div class="container mt-3">
+    <table class="table table-active table-hover table-striped">
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Comment</th>
+          <th>ID</th>
+          <th></th>
+        </tr>
+      </thead>
+      <tbody id="comment_list">
+
+      </tbody>
+    </table>
+  </div>
+  <div style="height: 10vh;"></div>
+  <script src="./js/comment.js"></script>
+  <script src="./js/main.js"></script>
+</body>
+
+</html>
